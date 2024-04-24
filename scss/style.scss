@@ -1,0 +1,47 @@
+
+//logo
+.logo{
+    font-family: "Recursive", sans-serif;
+}
+
+// nav-link
+.nav-link{
+    color: white;
+}
+.hero {
+    background: url("../images/images\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+//about-us card margin-bottom 
+@media (max-width:1000px){
+    .about-us .card{
+        margin-bottom: 2em;  
+    }
+}
+
+//title decoration
+.title-pattern::after {
+    content:"";
+    display: block;
+    background: #91bbf2;
+    width: 20px;
+    height: 4px;
+    margin-top: .3em;
+}
+
+
+//map
+.map iframe{
+    width: 100%;
+    height: 300px;
+}
+
+//footer links
+.footer-links-item::before{
+    content: "\00BB"; 
+    margin-right: .8em;
+    font-size: 1.5rem;
+
+}

@@ -1,0 +1,39 @@
+@charset "UTF-8";
+.logo {
+  font-family: "Recursive", sans-serif;
+}
+
+.nav-link {
+  color: white;
+}
+
+.hero {
+  background: url("../images/images (1).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 1000px) {
+  .about-us .card {
+    margin-bottom: 2em;
+  }
+}
+.title-pattern::after {
+  content: "";
+  display: block;
+  background: #91bbf2;
+  width: 20px;
+  height: 4px;
+  margin-top: 0.3em;
+}
+
+.map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+.footer-links-item::before {
+  content: "»";
+  margin-right: 0.8em;
+  font-size: 1.5rem;
+}

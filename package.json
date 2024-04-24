@@ -1,0 +1,16 @@
+{
+  "name": "junzsneaker_website",
+  "version": "1.0.0",
+  "description": "junzsneaker website",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "author": "Jun",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "sass": "^1.75.0"
+  }
+}
