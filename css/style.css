@@ -3,10 +3,6 @@
   font-family: "Recursive", sans-serif;
 }
 
-.nav-link {
-  color: white;
-}
-
 .hero {
   background: url("../images/images (1).jpg");
   background-repeat: no-repeat;
@@ -18,6 +14,13 @@
     margin-bottom: 2em;
   }
 }
+.stat-bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), #000000), url(../images/stats-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .title-pattern::after {
   content: "";
   display: block;
@@ -36,4 +39,8 @@
   content: "»";
   margin-right: 0.8em;
   font-size: 1.5rem;
+}
+
+html, body {
+  overflow-x: hidden;
 }

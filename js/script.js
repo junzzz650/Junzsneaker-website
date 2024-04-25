@@ -1,9 +1,25 @@
-//stats
+// nav scrolleffect
+function userScroll() {
+  const navbar = document.querySelector('.navbar');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      navbar.classList.add('bg-primary-subtle'); 
+      } else {
+        navbar.classList.remove('bg-primary-subtle');
+      }
+  
+  });
+}
+
+document.addEventListener('DOMContentLoaded', userScroll);
+
+
+
+// Stats Animation
 
 let section_counter = document.querySelector('.counters');
 let counters = document.querySelectorAll('.counters span');
-
-// Stats Animation
 
 let CounterObserver = new IntersectionObserver(
   (entries, observer) => {
@@ -43,6 +59,7 @@ let CounterObserver = new IntersectionObserver(
 );
 
 CounterObserver.observe(section_counter);
+
 
 
 

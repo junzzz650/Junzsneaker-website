@@ -21,10 +21,11 @@
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-transparent bg-primary fixed-top">
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a href="index.html" class="navbar-brand">
-                <h1 class="logo fw-bold display-6  text-white">JunzSneaker</h1>
+                <h1 class="logo fw-bold fs-4 text-secondary">JunzSneaker</h1>
             </a>
             <button 
             class="navbar-toggler" 
@@ -36,26 +37,27 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto fw-bold ">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Best Seller</a></li>
-                    <li class="nav-item"><a href="index.html" class="btn btn-outline-secondary px-3 mx-lg-3 text-white fw-bold">Contact</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#services" class="nav-link ">Our Services</a></li>
+                    <li class="nav-item"><a href="#bestseller" class="nav-link">Best Seller</a></li>
+                    <a class="btn btn-outline-secondary border-3 rounded-5 ms-4 px-3 fw-bolder" href="#contact">Contact</a>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <header class="p-7 bg-primary text-black">
+    <!-- hero -->
+    <header class="bg-primary text-secondary py-6 mb-4">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <h1 class="fw-bolder">Your Destination for Exclusive Sneakers & High-End Fashion Finds</h1>
-                        <p>Unlock a World of Luxury and Limited Editions, Right Here.</p>
-                        <div class="d-flex">
-                            <button class="btn btn-secondary rounded-4">Get started</button>
-                            <a href="#" class="btn text-white"><i class="fa-solid fa-play px-2"></i>Watch Video</a>
+                <div class="row g-5 align-items-center text-center text-md-start">
+                    <div class="col-md-6 col-sm-12">
+                        <h2 class="fw-bolder">Your Destination for Exclusive Sneakers & High-End Fashion Finds</h2>
+                        <p class="text-body">Unlock a World of Luxury and Limited Editions, Right Here.</p>
+                        <div class="d-flex justify-content-center justify-content-md-start">
+                            <button class="btn btn-secondary rounded-2">Get started</button>
+                            <a href="#" class="btn border-0 text-white"><i class="fa-solid fa-play px-2"></i>Watch Video</a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -68,31 +70,30 @@
     </header>
 
     <!-- brand -->
-    <section class="brand bg-light">
+    <section class="brand pb-4">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="d-flex align-items-center justify-content-between">
+                <div class="col-12">
+                    <div class="d-flex align-items-center text-center">
                         <div class="d-none d-lg-block">
-                            <img src="images/brands/nike-11.svg" alt="" class="img-fluid p-5">
+                            <img src="images/brands/nike-11.svg" alt="" class="w-50">
                         </div>
                         <div class="d-none d-lg-block">
-                            <img src="images/brands/adidas.svg" alt="" class="img-fluid p-5">
+                            <img src="images/brands/adidas.svg" alt="" class="w-50">
                         </div>
                         <div class="d-none d-md-block">
-                            <img src="images/brands/jordan-2.svg" alt="" class="img-fluid p-5">
+                            <img src="images/brands/jordan-2.svg" alt="" class="w-50">
                         </div>
 
                         <div class="d-none d-md-block">
-                            <img src="images/brands/supreme-1.svg" alt="" class="img-fluid p-5">
+                            <img src="images/brands/supreme-1.svg" alt="" class="w-50">
                         </div>
                         <div>
-                            <img src="images/brands/new-balance-2.svg" alt="" class="img-fluid p-5">
+                            <img src="images/brands/new-balance-2.svg" alt="" class="w-50">
                         </div>   
                         <div>
-                            <img src="images/brands/swatch-1.svg" alt="" class="img-fluid p-5">
-                        </div>
-                                           
+                            <img src="images/brands/swatch-1.svg" alt="" class="w-50">
+                        </div>                        
                     </div>
                 </div>
             </div>
@@ -100,182 +101,231 @@
     </section>
 
     <!-- about us -->
-    <section class="about-us my-6">
+    <section id="about" class="about-us bg-primary-subtle p-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 align-content-center">
-                    <h3><span class="badge bg-primary rounded-1">About Us</span></h3>
-                    <h2>Lorem ipsum dolor sit amet consectetur
-                    </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet consequatur error at facere autem ipsam, nulla sed ipsa modi nihil.</p>
+                    <h3><span class="badge bg-primary rounded-3">About Us</span></h3>
+                    <h2 class="fw-bold">Welcome to Our Store</h2>
+                    <p>At our store, we're passionate about providing you with the finest selection of premium sneakers and high-end fashion products. Our mission is to offer exclusive, hard-to-find items that elevate your style and reflect your unique personality.</p>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card p-4 shadow-lg border-0 rounded-3 mt-5 mb-lg-3">
-                        <span><i class="fa-solid fa-chart-simple bg-primary fs-4 p-3 rounded-circle mb-2"></i></span>
-                        <h5 class="card-title fw-bold">Lorem, ipsum1.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolorum.</p>
+                    <div class="card shadow-lg border-0 rounded-3 mt-5 mb-lg-3">
+                        <div class="card-body p-4">
+                            <span><i class="fa-solid fa-chart-simple bg-primary fs-5 p-3 rounded-circle text-secondary mb-2"></i></span>
+                            <h4 class="card-title fw-bold">Quality Assurance</h4>
+                            <p class="card-text">We guarantee the authenticity and quality of every product in our collection. Shop with confidence knowing that each item is carefully curated and inspected to meet our high standards.</p>
+                        </div>
                     </div>
                     <div class="card p-4 shadow-lg border-0 rounded-3">
-                        <span><i class="fa-solid fa-chart-simple bg-primary fs-4 p-3 rounded-circle mb-2"></i></span>
-                        <h5 class="card-title fw-bold">Lorem, ipsum2.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolorum.</p>
+                        <span><i class="fa-solid fa-star bg-primary fs-5 p-3 rounded-circle text-secondary mb-2"></i></span>
+                        <h4 class="card-title fw-bold">Exceptional Service</h4>
+                        <p class="card-text">Our dedicated team is committed to providing you with exceptional service every step of the way. From browsing our catalog to receiving your order, we strive to make your shopping experience seamless and enjoyable.</p>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="card p-4 shadow-lg border-0 rounded-3 mb-lg-3">
-                        <span><i class="fa-solid fa-chart-simple bg-primary fs-4 p-3 rounded-circle mb-2"></i></span>
-                        <h5 class="card-title fw-bold">Lorem, ipsum3.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolorum.</p>
+                        <span><i class="fa-solid fa-magnifying-glass bg-primary fs-5 p-3 rounded-circle text-secondary mb-2"></i></span>
+                        <h4 class="card-title fw-bold">Explore Our Collection</h4>
+                        <p class="card-text">Discover the latest trends and timeless classics in our carefully curated collection. Whether you're a sneaker enthusiast or a fashion aficionado, we have something for everyone.</p>
                     </div>
                     <div class="card p-4 shadow-lg border-0 rounded-3">
-                        <span><i class="fa-solid fa-chart-simple bg-primary fs-4 p-3 rounded-circle mb-2"></i></span>
-                        <h5 class="card-title fw-bold">Lorem, ipsum4.</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, dolorum.</p>
+                        <span><i class="fa-solid fa-link bg-primary fs-5 p-3 rounded-circle text-secondary mb-2"></i></span>
+                        <h4 class="card-title fw-bold">Stay Connected</h4>
+                        <p class="card-text">Join our community and stay updated on the latest arrivals, exclusive offers, and exciting promotions. Follow us on social media and subscribe to our newsletter for all the latest news.</p>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
 
     <!-- stats -->
-    <section class="counters stats text-center bg-light">
+    <section class="stat-bg counters stats text-center bg-light p-6">
         <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    <h2><span data-target="128">0</span></h2>
-                    <p>Happy Customers</p>
+            <div class="row g-5">
+                <div class="col-lg-3 text-white fs-5 fw-bolder">
+                    <h2><span data-target="500" class="fw-bolder"></span> +</h2>
+                    <p>Sneaker Releases</p>
                 </div>
-                <div class="col-3">
-                    <h2><span data-target="128">0</span></h2>
-                    <p>Happy Customers</p>
+                <div class="col-lg-3 text-white fs-5 c">
+                    <h2><span data-target="1000" class="fw-bolder"></span> +</h2>
+                    <p>Satisfied Customers</p>
                 </div>
-                <div class="col-3">
-                    <h2><span data-target="128">0</span></h2>
-                    <p>Happy Customers</p>
+                <div class="col-lg-3 text-white fs-5 fw-bold">
+                    <h2><span data-target="50" class="fw-bolder"></span> +</h2>
+                    <p>Exclusive Brands</p>
                 </div>
-                <div class="col-3">
-                    <h2><span data-target="128">0</span></h2>
-                    <p>Happy Customers</p>
+                <div class="col-lg-3 text-white fs-5 fw-bold">
+                    <h2><span data-target="1000" class="fw-bolder"></span> +</h2>
+                    <p>Total Sales</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- services -->
-    <section class="service my-6">
+    <section id="services" class="service py-5">
         <div class="container">
-            <p class="title-pattern fw-bold">SERVICES</p>
-            <h2 class="fw-bold">Check Our Services</h2>
-            <div class="row g-5">
+            <div class="text-center">
+                <h3><span class="badge bg-primary rounded-3 ">Services</span></h3>
+                <h2 class="fw-bold mb-4">Check Our Services</h2>
+            </div>
+            <div class="row g-4">
                 <div class="col-lg-6">
-                    <div class="card h-100 p-5 shadow-lg border-0 rounded-1">
+                    <div class="card h-100 p-4 shadow-lg border-5 rounded-5 bg-primary-subtle">
                         <div class="d-flex gap-4">
-                            <span><i class="fa-solid fa-chart-simple fs-5"></i></span>
+                            <span><i class="fa-solid fa-store fs-5"></i></span>
                             <div>
-                                <h5 class="card-title fw-bold">Lorem, ipsum2.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est eum deserunt! Tempora laboriosam vel, culpa doloribus vero temporibus molestiae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur adipisci rerum doloremque soluta alias ipsam earum harum laborum inventore fugit?</p>
+                                <h5 class="card-title fw-bold">Exclusive Sneaker Releases</h5>
+                                <p class="card-text">Stay ahead of the game with our exclusive sneaker releases. Discover rare and limited-edition kicks from top brands before anyone else.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card h-100 p-5 shadow-lg border-0 rounded-1">
-                        <div class="d-flex  gap-4">
-                            <span><i class="fa-solid fa-chart-simple fs-5"></i></span>
+                    <div class="card h-100 p-4 shadow-lg border-5 rounded-5 bg-primary-subtle">
+                        <div class="d-flex gap-4">
+                            <span><i class="fa-solid fa-pen-nib fs-5"></i></span>
                             <div>
-                                <h5 class="card-title fw-bold">Lorem, ipsum2.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est eum deserunt! Tempora laboriosam vel, culpa doloribus vero temporibus molestiae?</p>
+                                <h5 class="card-title fw-bold">Personalized Styling Advice</h5>
+                                <p class="card-text">Get personalized styling advice from our expert team. Whether you're looking for the perfect pair of sneakers or need help putting together a killer outfit, we've got you covered.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card h-100 p-5 shadow-lg border-0 rounded-1">
-                        <div class="d-flex  gap-4">
-                            <span><i class="fa-solid fa-chart-simple fs-5"></i></span>
+                    <div class="card h-100 p-4 shadow-lg border-5 rounded-5 bg-primary-subtle">
+                        <div class="d-flex gap-4">
+                            <span><i class="fa-solid fa-cart-shopping fs-5"></i></span>
                             <div>
-                                <h5 class="card-title fw-bold">Lorem, ipsum2.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est eum deserunt! Tempora laboriosam vel, culpa doloribus vero temporibus molestiae?</p>
+                                <h5 class="card-title fw-bold">Fast and Secure Checkout</h5>
+                                <p class="card-text">Experience hassle-free shopping with our fast and secure checkout process. Shop with confidence knowing that your personal information is always safe and secure.</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="card h-100 p-5 shadow-lg border-0 rounded-1">
-                        <div class="d-flex  gap-4">
-                            <span><i class="fa-solid fa-chart-simple fs-5"></i></span>
+                    <div class="card h-100 p-4 shadow-lg border-5 rounded-5 bg-primary-subtle">
+                        <div class="d-flex gap-4">
+                            <span><i class="fa-solid fa-earth-americas fs-5"></i></span>
                             <div>
-                                <h5 class="card-title fw-bold">Lorem, ipsum2.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est eum deserunt! Tempora laboriosam vel, culpa doloribus vero temporibus molestiae?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus delectus perspiciatis reprehenderit eaque dicta officiis esse quidem cupiditate pariatur quae neque, cum magnam deserunt ipsum accusantium consequatur repellat omnis ullam doloribus, hic distinctio aliquid labore a ex? Laudantium vero temporibus minus, delectus dolores quod rerum voluptates, itaque, illum eligendi ad?</p>
+                                <h5 class="card-title fw-bold">Worldwide Shipping</h5>
+                                <p class="card-text">We ship worldwide so you can enjoy our premium selection of sneakers and fashion finds no matter where you are. Get your favorite items delivered straight to your doorstep.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
 
     </section>
 
     <!-- Testimonials -->
-    <section class="testiminals bg-light">
+    <section class="testimonals p-4 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="rounded-circle">
-
-                    <p class="lead fw-bold fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam hic saepe, unde perspiciatis quas beatae atque consectetur voluptatibus expedita nam.</p>
-
-                    <p class="fw-bold">kenny - malaysia</p>
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="John's Portrait" class="rounded-circle">
+                    <p class="lead fw-bold fst-italic">"Discover the Latest Trends"</p>
+                    <p class="fw-bold">John - United States</p>
+                    <p class="testimonial-text">"I've been blown away by the variety and quality of sneakers available on this website. Finding the latest trends has never been easier!"</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="rounded-circle">
-
-                    <p class="lead fw-bold fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam hic saepe, unde perspiciatis quas beatae atque consectetur voluptatibus expedita nam.</p>
-
-                    <p class="fw-bold">kenny - malaysia</p>
+                    <img src="https://randomuser.me/api/portraits/men/52.jpg" alt="Michael's Portrait" class="rounded-circle">
+                    <p class="lead fw-bold fst-italic">"Find Your Signature Style"</p>
+                    <p class="fw-bold">Michael - Australia</p>
+                    <p class="testimonial-text">"This website helped me find my signature style effortlessly. The curated collection is spot-on, and I always receive compliments on my outfits!"</p>
                 </div>
                 <div class="col-md-4 text-center">
-                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="" class="rounded-circle">
-
-                    <p class="lead fw-bold fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam hic saepe, unde perspiciatis quas beatae atque consectetur voluptatibus expedita nam.</p>
-
-                    <p class="fw-bold">kenny - malaysia</p>
+                    <img src="https://randomuser.me/api/portraits/men/20.jpg" alt="David's Portrait" class="rounded-circle">
+                    <p class="lead fw-bold fst-italic">"Elevate Your Wardrobe"</p>
+                    <p class="fw-bold">David - Canada</p>
+                    <p class="testimonial-text">"Thanks to this website, I've been able to elevate my wardrobe to new heights. The quality of products and the exceptional service keep me coming back for more!"</p>
                 </div>
+                
             </div>
         </div>
     </section>
 
     <!-- best Seller -->
-    <section class="bestSeller my-6">
+    <section id="bestseller" class="bestSeller bg-primary-subtle py-5">
         <div class="container">
-            <h3><span class="badge bg-primary rounded-1">Best Seller</span></h3>
+            <div class="text-center">
+                <h3><span class="badge bg-primary rounded-3">Best Seller</span></h3>
+                <h5 class="fw-bold mb-4">Discover the Most Popular Items Right Now</h5>
+            </div>
             <div class="row g-3">
                 <div class="col-lg-4">
                     <a data-bs-toggle="modal" data-bs-target="#modal1">
-                        <div class="card">
-                            <img src="images/hero-img.png" alt="" class="card-img h-75">
-                            <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur beatae nisi cum dignissimos. Eum, laudantium dolore hic at dolores magnam?</div>
+                        <div class="card h-100">
+                            <img src="images/BestSeller/bestseller1.jpg" alt="Green shoe" class="card-img">
+                            <div class="card-body">
+                                <strong class="fs-5">Dunk Low 'Fleece Honeydew'</strong>
+                                <p class="card-text">A stylish and comfortable sneaker in a unique fleece honeydew colorway.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="col-lg-4">
+                    <a data-bs-toggle="modal" data-bs-target="#modal2">
+                        <div class="card h-100">
+                            <img src="images/BestSeller/bestseller2.jpg" alt="Green shoe" class="card-img">
+                            <div class="card-body">
+                                <strong class="fs-5">Off White X Jordan 5</strong>
+                                <p class="card-text">A highly coveted collaboration between Off White and Jordan Brand, featuring iconic design elements and premium materials.</p>
+                            </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card">
-                        <img src="images/hero-img.png" alt="" class="card-img h-25">
-                        <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur beatae nisi cum dignissimos. Eum, laudantium dolore hic at dolores magnam?</div>
-                    </div>
+                    <a data-bs-toggle="modal" data-bs-target="#modal3">
+                        <div class="card h-100">
+                            <img src="images/BestSeller/bestseller3.jpg" alt="Green shoe" class="card-img">
+                            <div class="card-body">
+                                <strong class="fs-5">Off White X Jordan 1 Chicago</strong>
+                                <p class="card-text">A classic silhouette reimagined with Off White's signature deconstructed aesthetic, paying homage to the iconic Chicago colorway.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card">
-                        <img src="images/hero-img.png" alt="" class="card-img-top h-75">
-                        <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur beatae nisi cum dignissimos. Eum, laudantium dolore hic at dolores magnam?</div>
-                    </div>
+                    <a data-bs-toggle="modal" data-bs-target="#modal4">
+                        <div class="card h-100">
+                            <img src="images/BestSeller/bestseller4.jpg" alt="Green shoe" class="card-img">
+                            <div class="card-body">
+                                <strong class="fs-5">Travis Scott X Jordan 1 Mocha</strong>
+                                <p class="card-text">A collaboration between Travis Scott and Jordan Brand, featuring a unique colorway inspired by Travis Scott's love for coffee.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card">
-                        <img src="images/hero-img.png" alt="" class="card-img h-75">
-                        <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur beatae nisi cum dignissimos. Eum, laudantium dolore hic at dolores magnam?</div>
-                    </div>
+                    <a data-bs-toggle="modal" data-bs-target="#modal5">
+                        <div class="card h-100">
+                            <img src="images/BestSeller/bestseller5.jpg" alt="Green shoe" class="card-img">
+                            <div class="card-body">
+                                <strong class="fs-5">Jordan 1 High Mocha</strong>
+                                <p class="card-text">A classic Jordan 1 silhouette featuring a mocha colorway, perfect for adding a stylish touch to any outfit.</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
+                <div class="col-lg-4">
+                    <a data-bs-toggle="modal" data-bs-target="#modal6">
+                        <div class="card h-100">
+                            <img src="images/BestSeller/bestseller6.jpg" alt="Green shoe" class="card-img">
+                            <div class="card-body">
+                                <strong class="fs-5">Off White X Jordan 1 Chicago</strong>
+                                <p class="card-text">An iconic collaboration between Off White and Jordan Brand, featuring the classic Chicago colorway with Off White's signature design elements.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                
+                
             </div>
         </div>
     </section>
@@ -287,14 +337,100 @@
             <div class="modal-dialog modal-lg mt-7">
                 <div class="modal-content p-5">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <img src="images/hero-img.png" alt="" class="img-fluid">
+                        <div class="col-md-6">
+                            <img src="images/BestSeller/bestseller1.jpg" alt="" class="img-fluid">
                         </div>
-                        <div class="col-lg-6"></div>
+                        <div class="col-md-6">
                             <div>
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere amet veniam animi eligendi facilis sint quasi voluptatum temporibus molestiae sunt.</p>
+                                <p>A stylish and comfortable sneaker in a unique fleece honeydew colorway.</p>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal2" class="modal fade">
+            <div class="modal-dialog modal-lg mt-7">
+                <div class="modal-content p-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/BestSeller/bestseller2.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <p>A stylish and comfortable sneaker in a unique fleece honeydew colorway.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal3" class="modal fade">
+            <div class="modal-dialog modal-lg mt-7">
+                <div class="modal-content p-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/BestSeller/bestseller3.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <p>A stylish and comfortable sneaker in a unique fleece honeydew colorway.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal4" class="modal fade">
+            <div class="modal-dialog modal-lg mt-7">
+                <div class="modal-content p-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/BestSeller/bestseller4.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <p>A stylish and comfortable sneaker in a unique fleece honeydew colorway.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal5" class="modal fade">
+            <div class="modal-dialog modal-lg mt-7">
+                <div class="modal-content p-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/BestSeller/bestseller5.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <p>A stylish and comfortable sneaker in a unique fleece honeydew colorway.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="modal6" class="modal fade">
+            <div class="modal-dialog modal-lg mt-7">
+                <div class="modal-content p-5">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/BestSeller/bestseller6.jpg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                            <div>
+                                <p>A stylish and comfortable sneaker in a unique fleece honeydew colorway.</p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -303,18 +439,35 @@
 
 
     <!-- contact -->
-    <section class="contact my-6">
+    <section id="contact" class="contact py-4">
         <div class="container">
-            <h3><span class="badge bg-primary rounded-1">Best Seller</span></h3>
-            <div class="row">
-                <div class="col-lg-5">
+            <div class="text-center">
+                <h3><span class="badge bg-primary rounded-3">Contact Us</span></h3>
+                <h5 class="fw-bold mb-4">Get in Touch with Us Today</h5>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-5">
                     <div class="card bg-light border-primary border-5 border-start-0 border-end-0 rounded-0 ">
-                        <div class="card-body">
+                        <div class="card-body vstack gap-4">
                             <div class="d-flex gap-4">
-                                <span><i class="fa-solid fa-chart-simple bg-primary fs-4 p-3 rounded-circle mb-2"></i></span>
+                                <span><i class="fa-solid fa-location fs-4 p-3 rounded-circle mb-2 bg-white text-primary"></i></span>
                                 <div>
-                                    <h5 class="card-title fw-bold">Lorem, ipsum2.</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod est eum deserunt! Tempora laboriosam vel, culpa doloribus vero temporibus molestiae?</p>
+                                    <h5 class="card-title fw-bold">Location:</h5>
+                                    <p class="card-text">888, Jalan Huat 8/8, Taman Sunway, Kuala Lumpur 52200</p></p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4">
+                                <span><i class="fa-regular fa-envelope fs-4 p-3 rounded-circle mb-2 bg-white text-primary"></i></span>
+                                <div>
+                                    <h5 class="card-title fw-bold">Email:</h5>
+                                    <p class="card-text">weijunchiong@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="d-flex gap-4">
+                                <span><i class="fa-solid fa-phone fs-4 p-3 rounded-circle mb-2 bg-white text-primary"></i></span>
+                                <div>
+                                    <h5 class="card-title fw-bold">Call:</h5>
+                                    <p class="card-text">+6012-3949392</p>
                                 </div>
                             </div>
 
@@ -324,18 +477,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
+                <div class="col-md-7">
                     <div class="card bg-light border-primary border-5 border-start-0 border-end-0 rounded-0 h-100">
-                        <!-- <div class="d-flex justify-content-evenly">
-                            <div>
-                                <label for="name" class="form-label">Your Name</label>
-                                <input type="text" class="form-control form-control-lg">
-                            </div>
-                            <div>
-                                <label for="name" class="form-label">Your Name</label>
-                                <input type="text" class="form-control">
-                            </div>
-                        </div> -->
+                
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-5 offset-1">
@@ -343,18 +487,18 @@
                                     <input type="text" class="form-control form-control-sm">
                                 </div>
                                 <div class="col-5">
-                                    <label for="name" class="form-label">Your Name</label>
+                                    <label for="name" class="form-label">Your Email</label>
                                     <input type="text" class="form-control form-control-sm">
                                 </div>
                                 <div class="col-10 offset-1">
-                                    <label for="subject" class="form-label">Your Name</label>
+                                    <label for="subject" class="form-label">Subject</label>
                                     <input type="text" class="form-control form-control-sm">
                                 </div>
                                 <div class="col-10 offset-1">
-                                    <label for="message" class="form-label">Your Name</label>
+                                    <label for="message" class="form-label">Message</label>
                                     <textarea type="text" rows="9" class="form-control form-control-sm"></textarea>
                                 </div>
-                                <div class="text-center"><button type="submit" class="btn btn-primary mt-3">Send Message</button></div>
+                                <div class="text-center"><button type="submit" class="btn btn-primary text-white mt-3">Send Message</button></div>
                             </div>
                         </div>                       
                     </div>
@@ -365,13 +509,15 @@
 
     
 
-    <footer class="footer bg-light p-5">
+    <footer class="footer p-4 bg-primary-subtle">
         <div class="container">
-            <div class="row">
+            <div class="row g-4">
                 <div class="col-lg-4">
                     <div class="mb-2">
-                        <h2>JunzSneaker</h2>
-                        <p>888 , Jalan Huat 8/8<br>Taman Huat Sunway<br>Kuala Lumpur 52200</p>
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="logo fw-bold  text-secondary">JunzSneaker</h1>
+                        </a>
+                        <p>888 , Jalan Huat 8/8<br>Taman Sunway<br>Kuala Lumpur 52200</p>
                     </div>
                     <div>
                         <strong>Phone</strong> : 012-3949392 <br>
@@ -379,24 +525,25 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <h4>Useful Links</h4>
+                    <h4 class="fw-bold">Useful Links</h4>
                     <ul class="list-unstyled">
                         <li class="footer-links-item">Home</li>
-                        <li class="footer-links-item">Home</li>
-                        <li class="footer-links-item">Home</li>
-                        <li class="footer-links-item">Home</li>
-                        <li class="footer-links-item">Home</li>
+                        <li class="footer-links-item">About Us</li>
+                        <li class="footer-links-item">Our Services</li>
+                        <li class="footer-links-item">Best Seller</li>
+                        <li class="footer-links-item">Contact Us</li>
                     </ul>
                 </div>
 
                 <div class="col-lg-4">
-                    <h4>Our Services</h4>
+                    <h4 class="fw-bold">Our Services</h4>
                     <ul class="list-unstyled">
-                        <li class="footer-links-item">Home</li>
-                        <li class="footer-links-item">Home</li>
-                        <li class="footer-links-item">Home</li>
-                        <li class="footer-links-item">Home</li>
-                        <li class="footer-links-item">Home</li>
+                        <li class="footer-links-item">Exclusive Sneaker Releases</li>
+                        <li class="footer-links-item">Personalized Styling Advice</li>
+                        <li class="footer-links-item">Fast and Secure Checkout</li>
+                        <li class="footer-links-item">Worldwide Shipping
+                        </li>
+                      
                     </ul>
                 </div>
             </div>

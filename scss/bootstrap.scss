@@ -2,14 +2,15 @@
 $font-family-sans-serif: 'Lato', sans-serif;
 
 //Colors
+$secondary: #050551;
 $primary: #89bafa;
-$secondary: #2929ba;
 
-// $primary: #b9d4f8;
-
+// $primary: #050551;
+// $secondary: #89bafa;
 //Navbar
 $navbar-nav-link-padding-x: 1em;
 $navbar-padding-y: 1rem;
+$navbar-light-hover-color: $secondary;
 
 
 //spacers
