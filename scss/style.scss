@@ -1,4 +1,20 @@
 
+html, body {
+    overflow-x: hidden;
+}
+
+//card animation
+
+.bestseller-card{
+    transition: all .3s;
+   
+}
+
+.bestseller-card:hover{
+    transform: scale(1.15);
+    z-index: 1000;
+}
+
 //logo
 .logo{
     font-family: "Recursive", sans-serif;
@@ -18,7 +34,6 @@
     }
 }
 
-
 //stat background
 .stat-bg{
     background-image: linear-gradient(rgba(0,0,0,0),#000000),url(../images/stats-bg.jpg);
@@ -37,7 +52,6 @@
     margin-top: .3em;
 }
 
-
 //map
 .map iframe{
     width: 100%;
@@ -49,8 +63,4 @@
     content: "\00BB"; 
     margin-right: .8em;
     font-size: 1.5rem;
-}
-
-html, body {
-    overflow-x: hidden;
 }

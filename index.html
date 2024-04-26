@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JunzSneaker</title>
 
+    <!-- AOS library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <!-- link to google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,12 +20,11 @@
     <!-- link to bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-
-    
+  
 </head>
 <body>
     <!-- navigation -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg bg-primary shadow fixed-top">
         <div class="container">
             <a href="index.html" class="navbar-brand">
                 <h1 class="logo fw-bold fs-4 text-secondary">JunzSneaker</h1>
@@ -36,7 +38,7 @@
 
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto fw-bold ">
                     <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
@@ -49,10 +51,10 @@
     </nav>
 
     <!-- hero -->
-    <header class="bg-primary text-secondary py-6 mb-4">
+    <header id="hero" class="bg-primary text-secondary py-7 my-4">
             <div class="container">
                 <div class="row g-5 align-items-center text-center text-md-start">
-                    <div class="col-md-6 col-sm-12">
+                    <div class="col-md-6 col-sm-12"  data-aos="fade-right" >
                         <h2 class="fw-bolder">Your Destination for Exclusive Sneakers & High-End Fashion Finds</h2>
                         <p class="text-body">Unlock a World of Luxury and Limited Editions, Right Here.</p>
                         <div class="d-flex justify-content-center justify-content-md-start">
@@ -60,7 +62,7 @@
                             <a href="#" class="btn border-0 text-white"><i class="fa-solid fa-play px-2"></i>Watch Video</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6"  data-aos="fade-left">
                         <div class="image-container">
                             <img src="images/hero-img.png" alt="a hero image" class="img-fluid">
                         </div>
@@ -70,7 +72,7 @@
     </header>
 
     <!-- brand -->
-    <section class="brand pb-4">
+    <section class="brand pb-4" data-aos="fade-up">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -104,12 +106,12 @@
     <section id="about" class="about-us bg-primary-subtle p-5">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 align-content-center">
+                <div class="col-lg-6 align-content-center"  data-aos="zoom-in">
                     <h3><span class="badge bg-primary rounded-3">About Us</span></h3>
                     <h2 class="fw-bold">Welcome to Our Store</h2>
                     <p>At our store, we're passionate about providing you with the finest selection of premium sneakers and high-end fashion products. Our mission is to offer exclusive, hard-to-find items that elevate your style and reflect your unique personality.</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" data-aos="flip-left">
                     <div class="card shadow-lg border-0 rounded-3 mt-5 mb-lg-3">
                         <div class="card-body p-4">
                             <span><i class="fa-solid fa-chart-simple bg-primary fs-5 p-3 rounded-circle text-secondary mb-2"></i></span>
@@ -123,7 +125,7 @@
                         <p class="card-text">Our dedicated team is committed to providing you with exceptional service every step of the way. From browsing our catalog to receiving your order, we strive to make your shopping experience seamless and enjoyable.</p>
                     </div>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3" data-aos="flip-right">
                     <div class="card p-4 shadow-lg border-0 rounded-3 mb-lg-3">
                         <span><i class="fa-solid fa-magnifying-glass bg-primary fs-5 p-3 rounded-circle text-secondary mb-2"></i></span>
                         <h4 class="card-title fw-bold">Explore Our Collection</h4>
@@ -165,7 +167,7 @@
     </section>
 
     <!-- services -->
-    <section id="services" class="service py-5">
+    <section id="services" class="service py-5" data-aos="zoom-out">
         <div class="container">
             <div class="text-center">
                 <h3><span class="badge bg-primary rounded-3 ">Services</span></h3>
@@ -223,7 +225,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="testimonals p-4 bg-light">
+    <section class="testimonals p-4 bg-light" data-aos="flip-left">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-center">
@@ -250,16 +252,16 @@
     </section>
 
     <!-- best Seller -->
-    <section id="bestseller" class="bestSeller bg-primary-subtle py-5">
+    <section id="bestseller" class="bestSeller bg-primary-subtle py-5" data-aos="slide-left">
         <div class="container">
             <div class="text-center">
-                <h3><span class="badge bg-primary rounded-3">Best Seller</span></h3>
+                <h3><span class="badge bg-primary rounded-3" >Best Seller</span></h3>
                 <h5 class="fw-bold mb-4">Discover the Most Popular Items Right Now</h5>
             </div>
             <div class="row g-3">
                 <div class="col-lg-4">
                     <a data-bs-toggle="modal" data-bs-target="#modal1">
-                        <div class="card h-100">
+                        <div class="bestseller-card card h-100">
                             <img src="images/BestSeller/bestseller1.jpg" alt="Green shoe" class="card-img">
                             <div class="card-body">
                                 <strong class="fs-5">Dunk Low 'Fleece Honeydew'</strong>
@@ -270,8 +272,8 @@
                 </div>
                 
                 <div class="col-lg-4">
-                    <a data-bs-toggle="modal" data-bs-target="#modal2">
-                        <div class="card h-100">
+                    <a data-bs-toggle="modal" data-bs-target="#modal2" >
+                        <div class="bestseller-card card h-100">
                             <img src="images/BestSeller/bestseller2.jpg" alt="Green shoe" class="card-img">
                             <div class="card-body">
                                 <strong class="fs-5">Off White X Jordan 5</strong>
@@ -281,19 +283,19 @@
                     </a>
                 </div>
                 <div class="col-lg-4">
-                    <a data-bs-toggle="modal" data-bs-target="#modal3">
-                        <div class="card h-100">
+                    <a data-bs-toggle="modal" data-bs-target="#modal3" >
+                        <div class="bestseller-card card h-100">
                             <img src="images/BestSeller/bestseller3.jpg" alt="Green shoe" class="card-img">
                             <div class="card-body">
-                                <strong class="fs-5">Off White X Jordan 1 Chicago</strong>
-                                <p class="card-text">A classic silhouette reimagined with Off White's signature deconstructed aesthetic, paying homage to the iconic Chicago colorway.</p>
+                                <strong class="fs-5">Off White X Jordan 1 White</strong>
+                                <p class="card-text">Experience the iconic Jordan 1 silhouette reimagined in a clean and timeless white colorway, infused with Off White's signature deconstructed aesthetic. Elevate your sneaker collection with this modern twist on a classic design.</p>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4">
                     <a data-bs-toggle="modal" data-bs-target="#modal4">
-                        <div class="card h-100">
+                        <div class="bestseller-card card h-100">
                             <img src="images/BestSeller/bestseller4.jpg" alt="Green shoe" class="card-img">
                             <div class="card-body">
                                 <strong class="fs-5">Travis Scott X Jordan 1 Mocha</strong>
@@ -304,18 +306,18 @@
                 </div>
                 <div class="col-lg-4">
                     <a data-bs-toggle="modal" data-bs-target="#modal5">
-                        <div class="card h-100">
+                        <div class="bestseller-card card h-100">
                             <img src="images/BestSeller/bestseller5.jpg" alt="Green shoe" class="card-img">
                             <div class="card-body">
-                                <strong class="fs-5">Jordan 1 High Mocha</strong>
-                                <p class="card-text">A classic Jordan 1 silhouette featuring a mocha colorway, perfect for adding a stylish touch to any outfit.</p>
+                                <strong class="fs-5">Jordan 1 High Bred Toe</strong>
+                                <p class="card-text">Step into timeless style with the Jordan 1 High Bred Toe. This classic silhouette features a bold combination of black, red, and white, making it a versatile addition to any sneaker collection. Elevate your look with these iconic kicks that blend heritage and innovation seamlessly.</p>
                             </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-lg-4">
                     <a data-bs-toggle="modal" data-bs-target="#modal6">
-                        <div class="card h-100">
+                        <div class="bestseller-card card h-100">
                             <img src="images/BestSeller/bestseller6.jpg" alt="Green shoe" class="card-img">
                             <div class="card-body">
                                 <strong class="fs-5">Off White X Jordan 1 Chicago</strong>
@@ -329,7 +331,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- project modals -->
     <div class="project-modals">
@@ -437,16 +438,15 @@
         </div>
     </div>
 
-
     <!-- contact -->
     <section id="contact" class="contact py-4">
         <div class="container">
             <div class="text-center">
-                <h3><span class="badge bg-primary rounded-3">Contact Us</span></h3>
+                <h3><span class="badge bg-primary rounded-3" >Contact Us</span></h3>
                 <h5 class="fw-bold mb-4">Get in Touch with Us Today</h5>
             </div>
             <div class="row g-4">
-                <div class="col-md-5">
+                <div class="col-md-5" data-aos="fade-down-left">
                     <div class="card bg-light border-primary border-5 border-start-0 border-end-0 rounded-0 ">
                         <div class="card-body vstack gap-4">
                             <div class="d-flex gap-4">
@@ -477,7 +477,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-7" data-aos="fade-up-left">
                     <div class="card bg-light border-primary border-5 border-start-0 border-end-0 rounded-0 h-100">
                 
                         <div class="card-body">
@@ -507,8 +507,6 @@
         </div>
     </section>
 
-    
-
     <footer class="footer p-4 bg-primary-subtle">
         <div class="container">
             <div class="row g-4">
@@ -527,11 +525,11 @@
                 <div class="col-lg-4">
                     <h4 class="fw-bold">Useful Links</h4>
                     <ul class="list-unstyled">
-                        <li class="footer-links-item">Home</li>
-                        <li class="footer-links-item">About Us</li>
-                        <li class="footer-links-item">Our Services</li>
-                        <li class="footer-links-item">Best Seller</li>
-                        <li class="footer-links-item">Contact Us</li>
+                        <li><a href="#hero" class="footer-links-item nav-link">Home</a></li>
+                        <li><a href="#about" class="footer-links-item nav-link">About Us</a></li>
+                        <li><a href="#services" class="footer-links-item nav-link">Our Services</a></li>
+                        <li><a href="#bestseller" class="footer-links-item nav-link">Best Seller</a></li>
+                        <li><a href="#contact" class="footer-links-item nav-link">Contact Us</a></li>
                     </ul>
                 </div>
 
@@ -542,19 +540,18 @@
                         <li class="footer-links-item">Personalized Styling Advice</li>
                         <li class="footer-links-item">Fast and Secure Checkout</li>
                         <li class="footer-links-item">Worldwide Shipping
-                        </li>
-                      
+                        </li>                   
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
 
-
-
-
-    
+    <!-- AOS library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- bootstrap -->
     <script src="js/bootstrap.bundle.min.js"></script>
+
     <script src="js/script.js"></script>
 </body>
 </html>

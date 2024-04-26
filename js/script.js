@@ -1,20 +1,21 @@
+
+// run aos library
+AOS.init();
+
 // nav scrolleffect
 function userScroll() {
   const navbar = document.querySelector('.navbar');
 
   window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
-      navbar.classList.add('bg-primary-subtle'); 
+      navbar.classList.add('bg-primary-subtle' , 'shadow'); 
       } else {
-        navbar.classList.remove('bg-primary-subtle');
+        navbar.classList.remove('bg-primary-subtle', 'shadow');
       }
-  
   });
 }
 
 document.addEventListener('DOMContentLoaded', userScroll);
-
-
 
 // Stats Animation
 
@@ -66,70 +67,3 @@ CounterObserver.observe(section_counter);
 
 
 
-// const counters = document.querySelectorAll(".counters span")
-// const container = document.querySelector(".counters")
-
-// let activated = false
-
-// window.addEventListener("scroll", ()=>{
-
-//     if(pageYOffset > container.offsetTop - container.offsetHeight - 200 && activated === false) {
-//         counters.forEach(counter => {
-//         counter.innerText = 0
-
-//         let count = 0;
-
-//         function updateCount() {
-//             const target = parseInt(counter.dataset.count)
-
-//             if(count < target) {
-
-//                 count++
-//                 counter.innerText = count
-//                 setTimeout(updateCount, 10)
-//             }else {
-//                 counter.innerText = target
-//             }
-//         }
-//         updateCount();
-
-//         activated = true
-//     })
-//     } else if(pageYOffset < container.offsetTop - container.offsetHeight - 500 || pageYOffset === 0 && activated === true
-
-//     ) {
-//         counters.forEach(counter => {
-//             counter.innerText = 0;
-//         })
-
-//         activated = false
-//     }
-// })
-
-
-
-// function incrementStats() {
-//     const counters = document.querySelectorAll(".counter");
-
-//     counters.forEach(counter => {
-//         counter.innerText = 0
-
-//         const updateCounter = () =>{
-//             const target = +counter.getAttribute('data-target')
-//             const c = +counter.innerText
-
-//             const increment = target / 200
-
-//             if (c < target){
-//                 counter.innerText = Math.ceil(c + increment)
-//                 setTimeout(updateCounter, 1)
-//             } else{
-//                 counter.innerText = target
-//             }
-//         }
-
-//         updateCounter();
-//     })
-// }
-
-// document.addEventListener(onscroll, incrementStats)

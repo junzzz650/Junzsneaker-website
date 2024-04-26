@@ -1,4 +1,17 @@
 @charset "UTF-8";
+html, body {
+  overflow-x: hidden;
+}
+
+.bestseller-card {
+  transition: all 0.3s;
+}
+
+.bestseller-card:hover {
+  transform: scale(1.15);
+  z-index: 1000;
+}
+
 .logo {
   font-family: "Recursive", sans-serif;
 }
@@ -39,8 +52,4 @@
   content: "»";
   margin-right: 0.8em;
   font-size: 1.5rem;
-}
-
-html, body {
-  overflow-x: hidden;
 }
