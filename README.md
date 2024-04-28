@@ -20,4 +20,5 @@ This project is the development of a company website using HTML, CSS (Sass), Jav
 
 ## Live Preview
 
-You can view the live preview of the website [here]([https://www.yourwebsite.com](https://junzsneaker-website.vercel.app/).
+You can view the live preview of the website [here](https://junzsneaker-website.vercel.app/).
+
